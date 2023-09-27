@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "titulo" : "Detalle de tu solicitud",
+      "marca_moto": "Bajaj",
+      "modelo_moto": "Discover 125 ST",
+      "precio_de_moto": 5583.00,
+      "monto_inicial": 583.00,
+      "total_a_financiar": 7583.00,
+      "fecha_de_pago": "16 de cada mes",
+      "frecuencia_de_pago": "mensual",
+      "cuotas": "24 cuotas de S/414.12",
+      "financiamiento": "seguro desgravamen",
+      "incluye": "seguro asistencial",
+      "otro_dato": "tramite de tarjeta y placa"
+    }
+  ]
+}

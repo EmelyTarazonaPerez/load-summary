@@ -1,0 +1,30 @@
+<app-head></app-head>
+
+<body style="width: 360px;">
+  <main>
+    <h1 class="title">{{dataObject.titulo}}</h1>
+    <section>
+      <app-box-info [textStatick]="MARCA_MOTO" [textDinamic]="dataObject.marca_moto"></app-box-info>
+      <app-box-info [textStatick]="MODELO_MOTO" [textDinamic]="dataObject.modelo_moto"></app-box-info>
+      <hr>
+    </section>
+    <section>
+      <app-box-info [textStatick]="PRECIO_DE_MOTO" [textDinamic]="dataObject.precio_de_moto"
+        [number]="true"></app-box-info>
+      <app-box-info [textStatick]="MONTO_INICIAL" [textDinamic]="dataObject.monto_inicial"
+        [number]="true"></app-box-info>
+      <app-box-info [textStatick]="TOTAL_A_FINANCIAR" [textDinamic]="dataObject.total_a_financiar" [style_p]="COLOR"
+        [number]="true"></app-box-info>
+      <app-box-info [textStatick]="FECHA_DE_PAGO" [textDinamic]="dataObject.fecha_de_pago"></app-box-info>
+      <app-box-info [textStatick]="FRECUENCIA_DE_PAGO" [textDinamic]="dataObject.frecuencia_de_pago"></app-box-info>
+      <h1 [ngStyle]="{'color': COLOR}">{{dataObject.cuotas}}</h1>
+      <hr>
+    </section>
+    <app-box-info [textStatick]="FINANCIAMIENTO" [textDinamic]="dataObject.financiamiento"></app-box-info>
+    <app-box-info [textStatick]="INCLUYE" [textDinamic]="dataObject.incluye"></app-box-info>
+    <app-box-info [textDinamic]="dataObject.otro_dato"></app-box-info>
+    <p class="text-footer">Ten en cuenta que las condiciones finales las conocerás cuando tu crédito sea formalizado.
+    </p>
+    <app-search></app-search>
+  </main>
+</body>

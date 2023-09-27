@@ -1,0 +1,41 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  color: #737373;
+}
+
+
+h1 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+article  {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+article b {
+  font-weight: 700;
+}
+
+article p {
+  font-weight: 500;
+  margin: 0px;
+}
+
+.active::before {
+  content: 'S/ ';
+}
+
+.active::after {
+  content: '.00';
+}
+
+.text::after {
+  content: '*';
+}
