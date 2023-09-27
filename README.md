@@ -1,10 +1,10 @@
 # Figma
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.   
 
-## Development server
+## Deploy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://651381c998d3ea375c7f3f7d--benevolent-malasada-c5c25b.netlify.app
 
 ## Informacion de la aplicacion: 
 
