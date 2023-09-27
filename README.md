@@ -21,7 +21,7 @@ Mostrar informacion de solicitud de credito,
 - with 360px 
 - heigth 800px
   
-## Running end-to-end tests
+## Vista previa por Figma
 
 ![image](https://github.com/EmelyTarazonaPerez/load-summary/assets/122141594/1275187c-874e-4f54-8f52-5e1ab067c91e)
 
