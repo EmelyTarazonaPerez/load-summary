@@ -12,4 +12,9 @@ export class BoxInfoComponent {
   @Input() style_p!: string
   @Input() number!: boolean
 
+
+  isNumber(textDinamic: any): boolean {
+    return typeof textDinamic === 'number';
+  }
+
 }

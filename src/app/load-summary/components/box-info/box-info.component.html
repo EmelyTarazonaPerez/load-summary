@@ -1,4 +1,13 @@
 <article>
   <p [class.text]="number" [style]="{'color': style_p}">{{textStatick}}</p>
-  <b [class.active]="number" [style]="{'color': style_p}">{{textDinamic}}</b>
+  <b *ngIf="isNumber(textDinamic) else normalTextDimanic"
+   [class.active]="number"
+   [style]="{'color': style_p}">
+    {{textDinamic | currency}}
+  </b>
+  <ng-template #normalTextDimanic>
+    <b [class.active]="number" [style]="{'color': style_p}">
+      {{textDinamic}}
+    </b>
+  </ng-template>
 </article>

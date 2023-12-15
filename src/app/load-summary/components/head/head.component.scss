@@ -3,12 +3,13 @@ header {
     display: flex;
     padding: 12px;
     justify-content: center;
+    align-items: center;
     box-shadow: 1px 1px 1px 1px #EFEFF0;
 }
 
 figure {
   margin: 0px !important;
-  width: 318px;
+  width: 100%;
   justify-content: center;
   display: flex;
 }

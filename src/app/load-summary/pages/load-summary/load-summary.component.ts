@@ -13,6 +13,7 @@ import {
   FINANCIAMIENTO,
   INCLUYE
 } from './constante/constantes';
+import { formatCurrency } from '@angular/common';
 
 @Component({
   selector: 'app-load-summary',
@@ -40,7 +41,6 @@ export class LoadSummaryComponent {
   ngOnInit(){
     console.log(data.data[0])
     this.dataObject = this.serviceload.getData();
-
   }
 
 }
