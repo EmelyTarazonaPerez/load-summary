@@ -1,5 +1,5 @@
 [build]
-  publish = “dist/Figma”
+  publish = “dist/figma”
   command = “ng build”
 [[redirects]]
   from = “/*”
